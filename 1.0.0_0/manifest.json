@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": ["background.js"]
+   },
+   "web_accessible_resources": [
+      "data.json"
+   ],
+   "browser_action": {
+      "default_icon": "icon.png"
+   },
+   "description": "fill out forms by one click",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "32": "icon-32.png",
+
+      "48": "icon-48.png"
+   },
+   "manifest_version": 2,
+   "name": "Auto form filler",
+   "permissions": ["activeTab"],
+   "version": "1.0.0"
+}
