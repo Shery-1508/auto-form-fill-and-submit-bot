@@ -29,7 +29,7 @@ const fetchData = async () => {
          textareasArray.forEach((textarea) => {
             textarea.value = item.msg;
          });
-
+ 
          // Fill the input fields based on their type and ID/Name attribute
          for (const input of inputList) {
             switch (input.getAttribute("type")) {
